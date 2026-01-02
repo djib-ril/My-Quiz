@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="quiz.png" type="image/x-icon">
+    <script src = "question.js" defer></script>
+</head>
+<body id = "body">
+    <!-- Countdown Overlay -->
+<div class="overlayTwo" id="countdownOverlay" style="display: none;">
+    <div class="work">
+        <span id="countdown">3</span>
+    </div>
+</div>
+ <div class="overlay" id="overlay-not-displayed">
+        <div class="spinning"><div class="spin"></div><br><p style="color: orange; text-shadow: 0 0 10px orange;">Wait for few seconds...</p></div>
+    </div>
+    <h1>Wish you the best!</h1><br><br>
+    <div class="triangle"></div>
+    <div class="square"></div>
+    <div class="starting">
+        <p id = "spent" style = "color: orange;text-shadow: 0 0 5px orange;text-align: right;"></p>
+        <h2 id = "question">Question goes here</h2>
+        <div id = "answer-buttons" class = "width">
+        <button class = "btn">Answer 1</button>
+        <button class = "btn">Answer 2</button>
+        <button class = "btn">Answer 3</button>
+        <button class = "btn">Answer 4</button>
+        
+        </div>
+        <button id = "next-btn">Next</button>
+    </div><br>
+    <p style="color: orange;"><em>A tool by Djibril</em></p>
+</body>
+</html>
