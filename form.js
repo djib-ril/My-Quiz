@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("quizUsername", username);
 
         // Go to next page
-        window.location.href = "index.html";
+        window.location.href = "changed.html";
     });
 });
+
