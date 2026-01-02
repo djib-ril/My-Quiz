@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
             localStorage.setItem("quizUsername", username);
-            window.location.href = "index.html";
+            window.location.href = "changed.html";
         });
     }
 });
@@ -200,4 +200,5 @@ setInterval(function time(){
 const notDisplayed = document.getElementById("overlay-not-displayed");
 setTimeout(function remove(){
     notDisplayed.style.display = "none";
+
 },6000);
